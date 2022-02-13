@@ -5,7 +5,9 @@ A very quick and AES algorithm implementation in Clojure.
 Just put it together and wrapped it up in a library to use as I was copy/pasting it too much.
 
 ## Usage
+The library is available to use on [Clojars](https://clojars.org).
 
+[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.jasonbell/quickencrypt.svg)](https://clojars.org/net.clojars.jasonbell/quickencrypt)
 
 ### To Encrypt a String
 The function takes in two arguments, the string you want to encrypt and a key.  You will require the key to decrypt the message, so please don't forget it.
